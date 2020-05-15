@@ -39,7 +39,12 @@
 
 ### Allowed Outbound Ports Discovery
 
-- [PortQuiz](http://portquiz.net/) - Domain with all ports open for scanning from an internal host, to determine which ports are allowed out.
+These are domains with all ports open. This is useful for determining what ports are allowed outbound with a `nmap -sS -p- <TEST_DOMAIN>`.
+
+- [AllPortsExposed](http://allports.exposed/)
+- [LetMeOutOfYourNet](http://letmeoutofyour.net/)
+- [PortQuiz](http://portquiz.net/)
+
 
 ## Escape
 
