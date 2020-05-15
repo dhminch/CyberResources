@@ -19,6 +19,7 @@
 ### Threat Discovery
 
 - [Threat Crowd](https://threatcrowd.org/) - Search domain, IP, email to see if it's a threat.
+- [AbuseIPDB](https://www.abuseipdb.com/) - IP abuse database.
 - [VirusTotal](https://virustotal.com) - Search if file is malicious.
 
 ### Cloud Discovery
