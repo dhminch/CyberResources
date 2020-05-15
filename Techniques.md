@@ -47,6 +47,6 @@ python -c 'import os,pty;os.setuid(0);os.setgid(0);pty.spawn("/bin/bash");'
 
 If filters are stopping things like `/bin/cat` `/etc/passwd`, you can use bash expressions like `/bi?/ca?` `/et?/pas?wd` instead.
 
-You can use `\`command\`` or `$(command)` to help with injection.
+You can use `` `command` `` or `$(command)` to help with injection.
 
 If you can't use `; & |` as separators, try injecting a raw `\n` instead (Burp helps).
