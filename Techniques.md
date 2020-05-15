@@ -35,11 +35,7 @@ Compile on the target, set SetUID, and run. Can likely compile locally and move 
 gcc -o setuid setuid.c && chown root:root setuid && chmod u+s setuid && ls -la setuid && ./setuid
 ```
 
-<<<<<<< HEAD
 ### Python Version
-=======
-## Python Version
->>>>>>> 8ca2d79c92602facb3fda5fdd3efb5cbdb4b0dd5
 
 If compiling a C program is annoying, an alternative method is to SetUID the python executable. Rather than using the system one, it's better to copy the python executable on the system somewhere else, and then SetUID your temporary copy. Then, run the following:
 
