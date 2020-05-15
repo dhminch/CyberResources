@@ -43,3 +43,10 @@ If compiling a C program is annoying, an alternative method is to SetUID the pyt
 python -c 'import os,pty;os.setuid(0);os.setgid(0);pty.spawn("/bin/bash");'
 ```
 
+## Command Injection Filter Evasion
+
+If filters are stopping things like `/bin/cat` `/etc/passwd`, you can use bash expressions like `/bi?/ca?` `/et?/pas?wd` instead.
+
+You can use `\`command\`` or `$(command)` to help with injection.
+
+If you can't use `; & |` as separators, try injecting a raw `\n` instead (Burp helps).
