@@ -10,13 +10,13 @@
 
 ## Privesc 
 
-- [PEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) - Modern privilege escalation recon tool
+- [PEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) - Modern privilege escalation recon tool.
 
 ## Reverse Engineering
 
-- [Ghidra](https://ghidra-sre.org/) - Free reverse engineering tool on par with IDA Pro ($$$)
+- [Ghidra](https://ghidra-sre.org/) - Free reverse engineering tool on par with IDA Pro ($$$).
 
 ## Other
 
-- [HackTricks](https://book.hacktricks.xyz/) - Detailed book on penetration testing techniques, by the author of the PEAS privesc tool
+- [HackTricks](https://book.hacktricks.xyz/) - Detailed book on penetration testing techniques, by the author of the PEAS privesc tool.
 
