@@ -45,7 +45,6 @@ These are domains with all ports open. This is useful for determining what ports
 - [LetMeOutOfYourNet](http://letmeoutofyour.net/)
 - [PortQuiz](http://portquiz.net/)
 
-
 ## Escape
 
 - [GTFO Bins](https://gtfobins.github.io/) - If a program runs with higher privileges (e.g., less, journalctl), check if there's a breakout.
@@ -75,6 +74,10 @@ These are domains with all ports open. This is useful for determining what ports
 ## Packet Capture / Network Monitoring
 
 - [Brim](https://www.brimsecurity.com/) - Tool that processes large PCAPs with Zeek and then presents connection information in GUI format.
+
+## Tradecraft
+
+- [.bash_history](http://www.deer-run.com/~hal/DontKnowJack-bash_history.pdf) - Information about how bash saves your shell history
 
 ## Reverse Engineering
 
