@@ -71,6 +71,16 @@ These are domains with all ports open. This is useful for determining what ports
 
 - [Programming language and OS supply chain](https://www.youtube.com/watch?v=aEeXv5clL7c) - Exploiting targets through weak trust relationships in programming language package repositories and OS repositories.
 
+## Pivoting
+
+### ssh-agent
+
+- [Impersonate using ssh-agent, Slide 11](http://www.deer-run.com/~hal/CLDojo.pdf) - As `root`, can use active ssh-agent to log into other targets
+  - `lsof -U -a -c sshd`
+  - `export SSH_AUTH_SOCK=<AGENT_SOCK_FILE>`
+  - `ssh-add -l`
+- [Steal SSH keys from ssh-agent](https://blog.netspi.com/stealing-unencrypted-ssh-agent-keys-from-memory/) - As `root`, it is possible to steal unecrypted SSH keys out of ssh-agent in memory.
+
 ## Packet Capture / Network Monitoring
 
 - [Brim](https://www.brimsecurity.com/) - Tool that processes large PCAPs with Zeek and then presents connection information in GUI format.
