@@ -74,7 +74,7 @@ These are domains with all ports open. This is useful for determining what ports
 
 ## Packet Capture / Network Monitoring
 
-- [Brim]{https://www.brimsecurity.com/) - Tool that processes large PCAPs with Zeek and then presents connection information in GUI format.
+- [Brim](https://www.brimsecurity.com/) - Tool that processes large PCAPs with Zeek and then presents connection information in GUI format.
 
 ## Reverse Engineering
 
