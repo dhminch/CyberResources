@@ -100,4 +100,4 @@ These are domains with all ports open. This is useful for determining what ports
 ## Other
 
 - [HackTricks](https://book.hacktricks.xyz/) - Detailed book on penetration testing techniques, by the author of the PEAS privesc tool.
-
+- [Learn VI](https://danielmiessler.com/study/vim/) - Intro to vi.
