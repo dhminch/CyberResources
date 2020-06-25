@@ -56,6 +56,7 @@ These are domains with all ports open. This is useful for determining what ports
 ## Privesc 
 
 - [PEAS](https://github.com/carlospolop/privilege-escalation-awesome-scripts-suite) - Modern privilege escalation recon tool.
+- [pspy](https://github.com/DominicBreuker/pspy) - Watch for Linux processes as non-root.
 
 ## Exploitation
 
