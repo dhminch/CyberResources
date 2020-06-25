@@ -50,3 +50,17 @@ If filters are stopping things like `/bin/cat` `/etc/passwd`, you can use bash e
 You can use `` `command` `` or `$(command)` to help with injection.
 
 If you can't use `; & |` as separators, try injecting a raw `\n` instead (Burp helps).
+
+## Gain Root Shell with Arbitrary File Access
+
+If you can read/write files as root, you can get yourself a full root shell. Here are some ways to do so.
+
+Most of these ways can be very destructive. It is always best to read the file you're going to overwrite, tweak it, double-check it, and then write it. Don't just overwrite the file with a copy from a default system install.
+
+- Overwrite /etc/sudoers with a copy that grants sudo access to your current user. Then `sudo su -`.
+- Overwrite /root/.ssh/authorized_keys with a line containing your SSH key.
+    - Only works if the arbitrary write sets restrictive permissions on the file like 0600 or 0644. If other users can write to the file, sshd will be upset and disallow PKI altogether.
+    - Only works if you're allowed to SSH in as `root` using PKI.
+- Read /etc/shadow and crack the root hash (only works for bad passwords). Then `sudo su -` or SSH in.
+- Add new user with UID=0 to /etc/password and /etc/shadow.
+- Add current user in /etc/group to group with sudo access.
