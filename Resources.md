@@ -94,6 +94,10 @@ These are domains with all ports open. This is useful for determining what ports
 
 - [Ghidra](https://ghidra-sre.org/) - Free reverse engineering tool on par with IDA Pro ($$$).
 
+## Wireless
+
+- [Fundamentals of Wi-Fi](https://www.duckware.com/tech/wifi-in-the-us.html) - Principles of Wi-Fi, but not very security related.
+
 ## Infrastructure
 
 - [Fireprox](https://github.com/ustayready/fireprox) - Proxy that sends each connection over a new EC2 instance (with new IP).
