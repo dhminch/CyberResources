@@ -26,6 +26,11 @@
 
 - [ip2provider](https://github.com/oldrho/ip2provider) - Tool to convert list of IPs to list of backing cloud providers.
 
+### Web App Discovery
+
+- [SecLists](https://github.com/danielmiessler/SecLists) - Premade lists for webapp enumeration and password guessing.
+- [FuzzDB](https://github.com/fuzzdb-project/fuzzdb) - Premade lists to fuzz webapps (and other applications).
+
 ### Metadata Discovery
 
 - [PowerMeta](https://github.com/dafthack/PowerMeta) - Framework for searching and extracting metadata from documents on a domain.
