@@ -25,6 +25,7 @@
 ### Cloud Discovery
 
 - [ip2provider](https://github.com/oldrho/ip2provider) - Tool to convert list of IPs to list of backing cloud providers.
+- [Hacking the Cloud](https://hackingthe.cloud) - How to abuse cloud credentials
 
 ### Web App Discovery
 
